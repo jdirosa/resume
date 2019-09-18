@@ -4,12 +4,13 @@ import { Technology } from './components/technologies';
 import { isMobile } from 'react-device-detect';
 import { Mobile } from './components/placeholders/mobile-fallback';
 import { Timeline } from './components/timeline';
+import { HeroMobile } from './components/hero/mobile';
 
 const App: React.FC = () => {
   return (
     <React.Fragment>
       {isMobile ? (
-        <Mobile />
+        <HeroMobile />
       ) : (
         <React.Fragment>
           <Hero />
