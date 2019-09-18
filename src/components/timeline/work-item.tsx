@@ -116,4 +116,5 @@ const Skill = styled(Button)`
 const Title = styled(Accents.GoldLight)`
   padding: 2px 8px;
   background: #333;
+  font-family: 'Cutive Mono', monospace;
 `;

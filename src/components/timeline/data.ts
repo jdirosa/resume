@@ -74,6 +74,7 @@ export const Works: Work[] = [
       'Angular',
       'JavaScript',
       'Hardware Integration',
+      'IIS',
     ],
   },
   {
