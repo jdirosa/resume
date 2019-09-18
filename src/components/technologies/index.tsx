@@ -46,8 +46,8 @@ export const SecondFrame: React.FunctionComponent = () => {
                 While the listed technologies are my current "go-to" options, I
                 am a strong believer in choosing the right tool for the project.
                 If a project calls for a tech stack in which I am unfamiliar,
-                having a deep experience with several languages helps me to
-                quickly grok new technologies as needed.
+                having deep experience with several languages helps me to
+                quickly grok new technologies and languages as needed.
               </p>
             </Col>
             <Col>
