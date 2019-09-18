@@ -6,15 +6,18 @@ import { Accents, Colors } from '../ui/accent';
 import { FaMagic } from 'react-icons/fa';
 import Container from 'react-bootstrap/Container';
 import { FancyHRGoldLight } from '../ui/fancy';
-import { VerticalSpacer } from '../ui/spacers';
+import { VerticalSpacer, MobileSection } from '../ui/spacers';
 import { Link, LinkGold } from '../ui/elements';
 import { CardListItem } from './card-list-item';
 
 export const HeroMobile: React.FunctionComponent = () => {
   return (
-    <Wrapper>
-      <Centered horiz vert>
-        <h3>James DiRosa</h3>
+    <MobileSection>
+      <VerticalSpacer lg />
+      <Centered horiz>
+        <Accents.GoldLight>
+          <h3>James DiRosa</h3>
+        </Accents.GoldLight>
         Code Magician{' '}
         <FaMagic
           style={{ paddingLeft: 6, fontSize: 30, color: Colors.GoldLight }}
@@ -36,17 +39,6 @@ export const HeroMobile: React.FunctionComponent = () => {
           <CardListItem type={'Git'}>GitHub</CardListItem>
         </LinkGold>
       </Centered>
-    </Wrapper>
+    </MobileSection>
   );
 };
-
-const Wrapper = styled(Container)`
-  color: white;
-  width: 100%;
-  height: 100vh;
-  background: url(${img}) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-`;

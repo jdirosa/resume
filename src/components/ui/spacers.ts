@@ -29,3 +29,8 @@ export const Section = styled.div`
   padding-top: 100px;
   padding-bottom: 100px;
 `;
+
+export const MobileSection = styled.div`
+  width: 100%;
+  min-height: 100vh;
+`;
