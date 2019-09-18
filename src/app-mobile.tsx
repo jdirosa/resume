@@ -16,8 +16,7 @@ const Mobile: React.FunctionComponent = () => (
 const MobileWrapper = styled(Container)`
   color: white;
 
-  background: url(${img}) no-repeat;
-  background-attachment: fixed;
+  background: url(${img}) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
