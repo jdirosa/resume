@@ -37,7 +37,7 @@ export const Works: Work[] = [
   {
     company: 'AssureSign',
     dates: 'April 2017 - February 2019',
-    description: `Brought on to further their digital signature SaaS product. During my tenure we revamped security, permissions, and transitioned from a legacy asp.net app to a modern SPA. `,
+    description: `Contributed to new feature development and optimization of their signature SaaS product. During my tenure we revamped security, permissions, and transitioned from a legacy asp.net app to a modern SPA. `,
     title: 'Full Stack Engineer',
     skills: [
       'Azure',
@@ -51,6 +51,8 @@ export const Works: Work[] = [
       'Jenkins',
       'Team Foundation Server',
       'Mentorship',
+      'OAuth',
+      'Redis',
     ],
   },
   {

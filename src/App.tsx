@@ -4,6 +4,7 @@ import { Technology } from './components/technologies';
 import { isMobile } from 'react-device-detect';
 import { Mobile } from './components/placeholders/mobile-fallback';
 import { Timeline } from './components/timeline';
+import { CallOuts } from './components/call-outs';
 const App: React.FC = () => {
   return (
     <React.Fragment>
@@ -14,6 +15,7 @@ const App: React.FC = () => {
           <Hero />
           <Technology />
           <Timeline />
+          <CallOuts />
         </React.Fragment>
       )}
     </React.Fragment>
