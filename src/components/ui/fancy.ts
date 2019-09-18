@@ -1,6 +1,7 @@
 import styled from 'styled-components';
+import { Colors } from './accent';
 
-export const FancyBackground = styled.div`
+export const FancyBG = styled.div`
   width: 100%;
   height: 460px;
   background: rgb(157, 120, 255);
@@ -17,4 +18,8 @@ export const FancyHR = styled.div`
   border-radius: 25%;
   width: 100%;
   background: rgba(239, 185, 45, 0.6643032212885154);
+`;
+
+export const FancyHRGoldLight = styled(FancyHR)`
+  background-color: ${Colors.GoldLight};
 `;

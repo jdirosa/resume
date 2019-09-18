@@ -36,7 +36,7 @@ const Wrapper = styled.div`
   margin-bottom: 20px;
 `;
 const IconWrapper = styled.span`
-  padding-right: 8px;
+  padding-right: 20px;
   font-size: 32px;
   background-color: '#ccc';
 `;

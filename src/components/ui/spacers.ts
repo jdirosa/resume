@@ -24,3 +24,8 @@ export const VerticalSpacer = styled.div`
       ? props.custom.toString() + 'px;'
       : '30px;'};
 `;
+
+export const Section = styled.div`
+  padding-top: 100px;
+  padding-bottom: 100px;
+`;

@@ -1,18 +1,20 @@
 import React from 'react';
 import { BusinessCard } from './business-card';
-import { FancyBackground } from '../ui/fancy';
+import { FancyBG } from '../ui/fancy';
 import { Centered } from '../ui/centered';
+import { VerticalSpacer } from '../ui/spacers';
 
-export const FirstFrame: React.FunctionComponent = () => {
+export const Hero: React.FunctionComponent = () => {
   return (
     <div style={{ width: '100%' }}>
-      <FancyBackground>
+      <FancyBG>
         <Centered vert>
           <div style={{ marginBottom: '-200px', position: 'relative' }}>
             <BusinessCard />
           </div>
         </Centered>
-      </FancyBackground>
+      </FancyBG>
+      <VerticalSpacer xl />
     </div>
   );
 };

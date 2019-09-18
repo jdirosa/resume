@@ -1,8 +1,6 @@
 import React from 'react';
-import { FancyBackground } from '../ui/fancy';
 import { Centered } from '../ui/centered';
 import { Paper } from '../ui/paper';
-import { PlaceHolderImage } from '../placeholders/images';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
