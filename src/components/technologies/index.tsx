@@ -21,14 +21,19 @@ export const SecondFrame: React.FunctionComponent = () => {
       <Centered vert>
         <Container>
           <Row>
+            <Col xs={12}>
+              <Centered horiz>
+                <h2>Technology I Love</h2>
+                <VerticalSpacer lg />
+              </Centered>
+            </Col>
             <Col>
               <h3>
                 <Accents.Purple>
                   <FaHeart style={{ fontSize: 52, paddingRight: 12 }} />
                 </Accents.Purple>
-                Technology I Love
+                A Lifelong Passion
               </h3>
-
               <p>
                 With almost a decade of professional experience in full stack,
                 web app development, there are few things outside of my comfort
