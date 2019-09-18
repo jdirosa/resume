@@ -30,8 +30,7 @@ export const WorkItem: React.FunctionComponent<Props> = ({
           ) : (
             <React.Fragment>
               <p>
-                <Accents.GoldLight>{work.title}</Accents.GoldLight> -{' '}
-                {work.description}
+                <Title>{work.title}</Title> - {work.description}
               </p>
             </React.Fragment>
           )}
@@ -39,8 +38,7 @@ export const WorkItem: React.FunctionComponent<Props> = ({
         <RightCol md={6}>
           {!flipped ? (
             <React.Fragment>
-              <Accents.GoldLight>{work.title}</Accents.GoldLight> -{' '}
-              {work.description}
+              <Title>{work.title}</Title> - {work.description}
             </React.Fragment>
           ) : (
             <React.Fragment>
@@ -114,4 +112,8 @@ const Skill = styled(Button)`
     background-color: transparent;
     cursor: default;
   }
+`;
+const Title = styled(Accents.GoldLight)`
+  padding: 2px 8px;
+  background: #333;
 `;
