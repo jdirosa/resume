@@ -27,6 +27,7 @@ export const TechnologyMobile: React.FunctionComponent = () => {
             ))}
         </Container>
       </MobileSection>
+      <VerticalSpacer xl />
       <MobileSection>
         <Container>
           <h3>
