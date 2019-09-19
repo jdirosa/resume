@@ -6,8 +6,12 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Colors } from '../ui/accent';
+import { Button } from '../ui/button';
+import { ContactProps } from '../common-props';
 
-export const GiveBack: React.FunctionComponent = () => {
+export const GiveBack: React.FunctionComponent<ContactProps> = ({
+  onContact,
+}) => {
   return (
     <Section>
       <Centered horiz>
@@ -27,6 +31,14 @@ export const GiveBack: React.FunctionComponent = () => {
             some pro bono web development, please send them my way. I of course
             have to balance a schedule, but am more than happy to lend my
             services to organizations in need.
+          </Col>
+        </Row>
+        <VerticalSpacer />
+        <Row>
+          <Col md={{ offset: 4 }}>
+            <Button onClick={onContact} primary>
+              Contact Me
+            </Button>
           </Col>
         </Row>
       </Container>
