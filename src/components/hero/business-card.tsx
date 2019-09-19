@@ -8,7 +8,7 @@ import { VerticalSpacer } from '../ui/spacers';
 import { CardListItem } from './card-list-item';
 import { Accents } from '../ui/accent';
 import { Link } from '../ui/elements';
-import me from '../../images/me.jpg';
+import me from '../../images/mesm.jpg';
 import { FaMagic } from 'react-icons/fa';
 export const BusinessCard: React.FunctionComponent = () => (
   <Paper shadow>
