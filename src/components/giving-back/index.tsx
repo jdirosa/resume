@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import { Colors } from '../ui/accent';
-import { Button } from '../ui/button';
+import { Button } from '../ui/elements';
 import { ContactProps } from '../common-props';
 
 export const GiveBack: React.FunctionComponent<ContactProps> = ({
