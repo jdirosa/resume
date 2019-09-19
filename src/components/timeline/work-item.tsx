@@ -51,7 +51,7 @@ export const WorkItem: React.FunctionComponent<Props> = ({
       <SectionRow>
         <LeftCol>
           {!flipped ? (
-            <h3>Technology Used</h3>
+            <h3>Technologies Used</h3>
           ) : (
             work.skills.map((s, i) => <Skill key={i}>{s}</Skill>)
           )}
@@ -60,7 +60,7 @@ export const WorkItem: React.FunctionComponent<Props> = ({
           {!flipped ? (
             work.skills.map((s, i) => <Skill key={i}>{s}</Skill>)
           ) : (
-            <h3>Technology Used</h3>
+            <h3>Technologies Used</h3>
           )}
         </RightCol>
       </SectionRow>

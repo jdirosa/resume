@@ -9,10 +9,7 @@ export const Works: Work[] = [
   {
     company: 'Surge Solutions',
     dates: 'February 2019 - September 2019',
-    description: `Brought on to develop Salesforce
-  integrated apps for lenders. While working on the entire
-  stack, I was brought on to lead the team in UI/UX, focusing on
-  usable design.`,
+    description: `Had a lot of fun working with a ton of fantastic tech. I was able to develop external Salesforce tools that help streamline the lending process.`,
     title: 'Full Stack Engineer',
     skills: [
       'AWS',
@@ -37,7 +34,7 @@ export const Works: Work[] = [
   {
     company: 'AssureSign',
     dates: 'April 2017 - February 2019',
-    description: `Contributed to new feature development and optimization of their signature SaaS product. During my tenure we revamped security, permissions, and transitioned from a legacy asp.net app to a modern SPA. `,
+    description: `Worked with an amazing team and helped to further their digital signature product. There was a major focus on security and scalability at every layer of the stack. `,
     title: 'Full Stack Engineer',
     skills: [
       'Azure',
@@ -82,8 +79,10 @@ export const Works: Work[] = [
   {
     company: 'AgingCare.com',
     dates: 'February 2015 - February 2016',
-    description:
-      'Worked on a content and lead generation site that has millions of distinct viewers. Worked with graphic designers to turn wireframes and ui spec into web designs that focus on conversion rates.',
+    description: `Fascinating position on a content and lead generation website. 
+      I especially enjoyed the deep statistical dives on conversion 
+      rates, experimenting with AB testing, and really understanding 
+      the impact UX can have on a user.`,
     title: 'Software Developer',
     skills: ['C#', 'MVC', 'SQL', 'CSS', 'Bootstrap'],
   },

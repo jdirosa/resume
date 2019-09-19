@@ -11,8 +11,9 @@ export const TechnologyMobile: React.FunctionComponent = () => {
   return (
     <React.Fragment>
       <MobileSection>
-        <Container>
-          <h3>Technology I Love</h3>
+        <Container style={{ textAlign: 'left' }}>
+          <h3>Technologies I Love</h3>
+          <VerticalSpacer />
           {skills
             .sort((a, b) => b.skill - a.skill)
             .map((s, i) => (
