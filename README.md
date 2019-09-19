@@ -1,11 +1,8 @@
 # James DiRosa
 
-An online resume built using React.
+An online resume built using React. Check it out at [here](https://jamesdirosa.com)
 
 ## Get it running
 
-Not yet. Still working on this
-
-## Is it live?
-
-Nope. See above.
+1. `npm i`
+1. `npm start`
