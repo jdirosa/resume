@@ -7,6 +7,7 @@ import Container from 'react-bootstrap/Container';
 import { VerticalSpacer } from './components/ui/spacers';
 import { Centered } from './components/ui/centered';
 import { Accents } from './components/ui/accent';
+import { FancyHRGoldLight } from './components/ui/fancy';
 export const AppMobile: React.FunctionComponent = () => <Mobile />;
 
 const Mobile: React.FunctionComponent = () => (
@@ -14,7 +15,7 @@ const Mobile: React.FunctionComponent = () => (
     <Centered horiz>
       <HeroMobile />
       <TechnologyMobile />
-      <VerticalSpacer xl />
+      <Break />
       <Accents.GoldLight>
         <h3>There's More!</h3>
       </Accents.GoldLight>
@@ -45,3 +46,13 @@ const MobileWrapper = styled(Container)`
     background-size: cover;
   }
 `;
+
+const Break: React.FunctionComponent = () => (
+  <React.Fragment>
+    <VerticalSpacer />
+    <div style={{ width: '50%', margin: 'auto' }}>
+      <FancyHRGoldLight />
+    </div>
+    <VerticalSpacer />
+  </React.Fragment>
+);

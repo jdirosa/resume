@@ -23,7 +23,7 @@ export const Technology: React.FunctionComponent = () => {
             <Row>
               <Col xs={12}>
                 <Centered horiz>
-                  <h2>Technology I Love</h2>
+                  <h2>Technologies I Love</h2>
                   <VerticalSpacer lg />
                 </Centered>
               </Col>
