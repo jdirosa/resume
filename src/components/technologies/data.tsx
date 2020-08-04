@@ -17,11 +17,6 @@ export const skills = [
     icon: <FaReact />,
   },
   {
-    title: 'C#',
-    skill: 95,
-    icon: <FaWindows />,
-  },
-  {
     title: 'Javascript',
     skill: 90,
     icon: <FaJsSquare />,
@@ -46,6 +41,11 @@ export const skills = [
         TS
       </div>
     ),
+  },
+  {
+    title: 'C#',
+    skill: 90,
+    icon: <FaWindows />,
   },
   {
     title: 'NodeJS',
