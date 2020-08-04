@@ -48,6 +48,11 @@ export const skills = [
     icon: <FaWindows />,
   },
   {
+    title: 'Cloud (AWS and Azure)',
+    skill: 80,
+    icon: <FaCloud />,
+  },
+  {
     title: 'NodeJS',
     skill: 50,
     icon: <FaNodeJs />,
@@ -61,10 +66,5 @@ export const skills = [
     title: 'Docker',
     skill: 20,
     icon: <FaDocker />,
-  },
-  {
-    title: 'Cloud (AWS and Azure)',
-    skill: 50,
-    icon: <FaCloud />,
   },
 ];
