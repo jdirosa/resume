@@ -7,6 +7,23 @@ export interface Work {
 }
 export const Works: Work[] = [
   {
+    company: 'Barracuda Networks',
+    dates: 'September 2019 - present',
+    description:
+      'I was brought on to lead the front end team on new data protection products. I have enjoyed working with an extremely talented backend team, and have really appreciated the ability to focus solely on front end work.',
+    title: 'Senior Front End Engineer',
+    skills: [
+      'React',
+      'React Hooks',
+      'Azure',
+      'Kubernetes',
+      'Docker',
+      'CosmosDB',
+      'TypeScript',
+      'Node.js',
+    ],
+  },
+  {
     company: 'Surge Solutions',
     dates: 'February 2019 - September 2019',
     description: `Had a lot of fun working with a ton of fantastic tech. I was able to develop external Salesforce tools that help streamline the lending process.`,
@@ -16,7 +33,7 @@ export const Works: Work[] = [
       'Cloud Formation',
       'Serverless',
       'React',
-      'NodeJS',
+      'Node.js',
       'TypeScript',
       'RDS',
       'NestJS',
