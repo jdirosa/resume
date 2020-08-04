@@ -10,8 +10,8 @@ export const Works: Work[] = [
     company: 'Barracuda Networks',
     dates: 'September 2019 - present',
     description:
-      'I was brought on to lead the front end team on new data protection products. I have enjoyed working with an extremely talented backend team, and have really appreciated the ability to focus solely on front end work.',
-    title: 'Senior Front End Engineer',
+      'I was brought on to lead the frontend team on new data protection products. I have enjoyed working with an extremely talented backend team, and have really appreciated the ability to focus solely on frontend work.',
+    title: 'Senior Frontend Engineer',
     skills: [
       'React',
       'React Hooks',
